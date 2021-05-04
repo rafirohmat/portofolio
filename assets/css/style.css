@@ -1,0 +1,183 @@
+@font-face {
+    src: url('../fonts/Montserrat-Bold.ttf');
+    font-family: 'montserrat-bold';
+
+}
+
+@font-face {
+    src: url('../fonts/Montserrat-Medium.ttf');
+    font-family: 'montserrat-medium';
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #151515;
+    overflow-x: hidden;
+
+}
+
+nav{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+nav .container {
+    width: 100%;
+
+}
+
+
+
+.header {
+    margin-top: 85px;
+
+}
+
+.header h1 {
+    color: #d9d9d9;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+
+}
+
+.first-btn {
+    margin-top: 65px !important;
+
+}
+
+.container-btn {
+    width: 1140px;
+    margin: 48px auto;
+
+}
+
+.container-btn .row {
+    width: 100%;
+    
+
+}
+
+.container-btn .btn {
+    width: 450px;
+    height: 80px;
+    background: #151515;
+    border: 2px solid #d9d9d9;
+    box-sizing: border-box;
+    border-radius: 500px;
+    display: flex;
+    align-items: center;
+    margin: 48px auto;
+    padding: 30px;
+}
+
+ 
+
+.container-btn .btn img {
+    margin-right: 14px;
+
+}
+
+.container-btn a {
+    text-decoration: none;
+    color: #d9d9d9;
+    letter-spacing: .5px;
+    font-family: 'montserrat-medium';
+
+}
+
+.object {
+    padding-top: 150px;
+}
+
+.not-available {
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.tittle h2{
+    padding-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #d9d9d9;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+} 
+
+.subtittle {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #d9d9d9;
+    text-align: center;
+}
+
+
+@media ( max-width: 768px ) {
+
+    .header {
+        margin-top: 80px;
+
+    }
+    
+    nav  {
+        width: 100%;
+        display: none;
+
+    }
+
+    nav .container {
+        padding: 20px;
+
+    }
+
+    .header h1 {
+        font-size: 40px;
+        font-family: 'Inter', sans-serif;
+
+    }
+
+    .container-btn {
+        width: 100%;
+
+    }
+
+    .container-btn .btn {
+        width: 90%;
+        height: 70px;
+        margin: -20px auto;
+
+    }
+
+    .container-btn .btn img {
+        width: 28px;
+
+    }
+
+    @keyframes geser {
+        50% {
+            transform: translateX(20px);
+    
+        }
+        100% {
+            transform: translateX(0);
+    
+        }
+    
+    }
+    
+
+}
